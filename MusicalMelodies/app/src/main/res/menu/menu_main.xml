@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.induja.musicalmelodies.MainActivity">
+
+    <item android:id="@+id/add_song"
+          android:title="@string/add_song"
+          android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/delete_song"
+          android:title="@string/delete_song"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+        </menu>
+    </item>
+    <item android:id="@+id/exit_app"
+          android:title="@string/exit_app"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

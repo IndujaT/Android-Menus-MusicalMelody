@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_song_title"
+            android:hint="@string/enter_song_title"
+            android:imeOptions="actionDone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_band_name"
+            android:hint="@string/enter_band_name"
+            android:imeOptions="actionDone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_wiki_link"
+            android:hint="@string/enter_wiki_link"
+            android:imeOptions="actionDone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_video_link"
+            android:hint="@string/enter_video_link"
+            android:imeOptions="actionDone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_band_wiki_link"
+            android:hint="@string/enter_band_wiki_link"
+            android:imeOptions="actionDone"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music and Mozarts</string>
+    <string name="view_video">View the Song\'s Video </string>
+    <string name="view_songs_wiki">View the Song\'s Wiki</string>
+    <string name="view_bands_wiki">View the Band\'s Wiki</string>
+    <string name="add_song">Add Song</string>
+    <string name="delete_song">Delete Song</string>
+    <string name="exit_app">Exit</string>
+    <string name="enter_song_title">Enter the Song </string>
+    <string name="enter_band_name">Enter the Song Artist/Band </string>
+    <string name="enter_wiki_link">Enter wikipedia link of the song </string>
+    <string name="enter_video_link">Enter Video Url of the Song </string>
+    <string name="enter_band_wiki_link">Enter Wikipedia link of the band</string>
+</resources>
